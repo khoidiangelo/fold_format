@@ -6,7 +6,6 @@
 int main(void) {
     char line[MAXLINE];
     int length = readline(line, MAXLINE);
-    printf("length: %d\n%s", length, line);
     length = fold(line, length);
     printf("length: %d\n%s", length, line);
     return 0;
