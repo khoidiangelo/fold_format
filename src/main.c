@@ -2,7 +2,6 @@
 #include "readline.c"
 #include "fold.c"
 #define MAXLINE 1000
-
 int main(void) {
     char line[MAXLINE];
     int length = readline(line, MAXLINE);
